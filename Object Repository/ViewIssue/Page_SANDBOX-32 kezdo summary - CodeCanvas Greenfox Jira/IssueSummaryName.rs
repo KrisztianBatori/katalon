@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>IssueName</name>
+   <name>IssueSummaryName</name>
    <tag></tag>
    <elementGuidId>baf92471-21a2-4c74-bf4d-2d75ad29f0e7</elementGuidId>
    <selectorCollection>

@@ -27,3 +27,7 @@ WebUI.click(findTestObject('ViewIssue/Page_System Dashboard - CodeCanvas Greenfo
 
 WebUI.navigateToUrl('https://jira.greenfox.codecanvas.hu/browse/SANDBOX-32')
 
+WebUI.verifyElementText(findTestObject('Object Repository/ViewIssue/Page_SANDBOX-32 kezdo summary - CodeCanvas Greenfox Jira/IssueSummaryName'), 'kezdo summary')
+
+
+

@@ -20,10 +20,10 @@ WebUI.navigateToUrl('https://jira.greenfox.codecanvas.hu/secure/Dashboard.jspa')
 WebUI.click(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/div_Username'))
 
 WebUI.setText(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/input_U_os_username'), 
-    'user4')
+    username)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/input_P_os_password'), 
-    'TH2Uh5Bok1ZIg+SkmWxVrQ==')
+    password)
 
 WebUI.click(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/input_Jira administrators_login'))
 

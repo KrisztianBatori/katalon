@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>890b8158-defc-4800-8cb0-c2370fde124a</testCaseGuid>
+   <variable>
+      <defaultValue>'user3'</defaultValue>
+      <description></description>
+      <id>986e5374-2119-4afd-9709-501e3107893d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'GreenPass123'</defaultValue>
+      <description></description>
+      <id>26f402f9-7c10-46ba-96a2-ababd25e8f41</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

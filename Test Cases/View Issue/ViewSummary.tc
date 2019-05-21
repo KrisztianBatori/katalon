@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get summary value.</description>
+   <name>ViewSummary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6a6c958-a5ee-460d-848f-70d45a32c35f</testCaseGuid>
+</TestCaseEntity>

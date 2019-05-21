@@ -14,5 +14,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementText(findTestObject('ViewIssue/Page_SANDBOX-32 kezdo summary - CodeCanvas Greenfox Jira/IssueStatus'), 
-    'In Progress')
+    'IN PROGRESS')
 

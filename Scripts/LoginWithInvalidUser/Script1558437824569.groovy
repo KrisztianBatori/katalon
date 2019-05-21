@@ -13,25 +13,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/img'))
-
-WebUI.click(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/a_Log Out'))
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://jira.greenfox.codecanvas.hu/secure/Dashboard.jspa')
 
 WebUI.setText(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/input_U_os_username'), 
-    'user3')
+    'user')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/input_P_os_password'), 
-    'TH2Uh5Bok1ZIg+SkmWxVrQ==')
+    '8SQVv/p9jVScEs4/2CZsLw==')
 
 WebUI.click(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/input_Jira administrators_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/span_Projects_aui-avatar aui-avatar-small'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/p_Sorry your username and password are incorrect - please try again'), 
+    'Sorry your username and password are incorrect - please try again')
 
-WebUI.click(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/a_Log Out_1'))
-
-WebUI.click(findTestObject('Object Repository/Page_Logout - CodeCanvas Greenfox Jira/strong_You are now logged out Any automatic login has also been stopped'))
+WebUI.closeBrowser()
 

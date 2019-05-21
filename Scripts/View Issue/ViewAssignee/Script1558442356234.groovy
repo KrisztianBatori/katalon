@@ -13,21 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://jira.greenfox.codecanvas.hu/secure/Dashboard.jspa')
-
-WebUI.setText(findTestObject('Object Repository/ViewIssue/Page_System Dashboard - CodeCanvas Greenfox Jira/input_U_os_username'), 
-    'user0')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/ViewIssue/Page_System Dashboard - CodeCanvas Greenfox Jira/input_P_os_password'), 
-    'TH2Uh5Bok1ZIg+SkmWxVrQ==')
-
-WebUI.click(findTestObject('ViewIssue/Page_System Dashboard - CodeCanvas Greenfox Jira/input_Jira administrators_login'))
-
-WebUI.navigateToUrl('https://jira.greenfox.codecanvas.hu/browse/SANDBOX-32')
-
-WebUI.verifyElementText(findTestObject('Object Repository/ViewIssue/Page_SANDBOX-32 kezdo summary - CodeCanvas Greenfox Jira/IssueSummaryName'), 'kezdo summary')
-
-
+WebUI.verifyElementText(findTestObject('ViewIssue/Page_SANDBOX-32 kezdo summary - CodeCanvas Greenfox Jira/IssueAssignee'), 
+    'User 0')
 

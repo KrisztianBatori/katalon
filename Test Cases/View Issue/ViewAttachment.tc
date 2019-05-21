@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ViewSummary</name>
+   <name>ViewAttachment</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>dcff2379-202d-4697-86b3-82d5f0ec009d</testCaseGuid>
+   <testCaseGuid>6aa0fa02-3f74-4bdb-9b33-2865223dd226</testCaseGuid>
 </TestCaseEntity>

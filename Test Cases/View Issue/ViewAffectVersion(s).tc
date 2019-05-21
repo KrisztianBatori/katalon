@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ViewSummary</name>
+   <name>ViewAffectVersion(s)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>dcff2379-202d-4697-86b3-82d5f0ec009d</testCaseGuid>
+   <testCaseGuid>f580afa7-1623-4a17-850b-415197844d2c</testCaseGuid>
 </TestCaseEntity>

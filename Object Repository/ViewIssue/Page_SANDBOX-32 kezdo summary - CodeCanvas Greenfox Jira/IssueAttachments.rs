@@ -1,71 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>IssueAttachment</name>
+   <name>IssueAttachments</name>
    <tag></tag>
-   <elementGuidId>a11c86a5-f550-46fc-acab-97482a41d5fe</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='attachmentmodule']/div[2]/div/div</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>e0ac3894-fb00-49fc-85b4-9e7ff2826ed5</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>h4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>issue-drop-zone__target</value>
+      <value>toggle-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;attachmentmodule&quot;)/div[@class=&quot;mod-content issue-drop-zone&quot;]/div[@class=&quot;issue-drop-zone -dui-type-parsed&quot;]/div[@class=&quot;issue-drop-zone__target&quot;]</value>
+      <value>id(&quot;attachmentmodule_heading&quot;)/h4</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='attachmentmodule']/div[2]/div/div</value>
+      <value>//div[@id='attachmentmodule_heading']/h4</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachments'])[2]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Attachments'])[1]/following::h4[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Attachments'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download All'])[1]/following::h4[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='browse.'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='browse.'])[1]/preceding::h4[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/div</value>
+      <value>//div[4]/div/h4</value>
    </webElementXpaths>
 </WebElementEntity>

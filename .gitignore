@@ -32,6 +32,5 @@ Libs/TempTestCase*.groovy
 Libs/TempTempCase*.groovy
 Libs/TempTestSuite*.groovy
 Reports
-# settings/internal/com.kms.katalon.integration.analytics.properties
-# settings/internal/com.kms.katalon.integration.jira.properties
+
 settings/

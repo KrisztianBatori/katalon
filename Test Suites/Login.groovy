@@ -2,9 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static org.junit.Assert.*
-
-import org.junit.Test
 
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
@@ -36,7 +33,7 @@ import com.kms.katalon.core.annotation.TearDownTestCase
  */
 @SetUp(skipped = true) // Please change skipped to be false to activate this method.
 def setUp() {
-	
+	// Put your code here.
 }
 
 /**
@@ -60,7 +57,6 @@ def setupTestCase() {
  */
 @TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
 def tearDownTestCase() {
-	
 	// Put your code here.
 }
 

@@ -28,5 +28,5 @@ WebUI.click(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas
 WebUI.verifyElementText(findTestObject('Object Repository/Page_System Dashboard - CodeCanvas Greenfox Jira/p_Sorry your username and password are incorrect - please try again'), 
     'Sorry your username and password are incorrect - please try again')
 
-WebUI.closeBrowser()
+
 

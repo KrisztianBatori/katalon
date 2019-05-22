@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AssignNonExistentUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfb6133a-9262-4e8e-bd4f-848b3130d26c</testCaseGuid>
+   <variable>
+      <defaultValue>'blablabla'</defaultValue>
+      <description></description>
+      <id>da37d18b-8042-4715-9b0c-62da96834226</id>
+      <masked>false</masked>
+      <name>nonExistentUser</name>
+   </variable>
+</TestCaseEntity>
